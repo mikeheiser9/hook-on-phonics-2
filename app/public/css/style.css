@@ -283,7 +283,8 @@ height: 100% !important;
     margin-top: 60px;
     font-family: 'Quicksand', sans-serif;
     color: darkblue;
-    font-size: 2vw;
+    font-size: 1.9vw;
+    margin-left: 45px;
 }
 #def2 {
     margin-top: 60px;
@@ -480,7 +481,6 @@ height: 100% !important;
 #footer {
     background-color: #0F408E;
     color: #d3d3d3;
-    margin-top: 50px;
     bottom: 0;
     padding: 10px;
     width: 100vw;
