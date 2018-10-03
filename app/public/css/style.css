@@ -9,6 +9,35 @@ height: 100% !important;
     height: 100%;
 }
 
+.img-1 {
+    max-width: 110%;
+    height: auto;
+    margin-top: 40px;
+    border: 1px solid white;
+}
+
+.img-2 {
+    margin-left: 70px;
+    max-width: 165%;
+    border: 1px solid white;
+    margin-top: -105px;
+}
+
+.img-3 {
+    max-width: 115%;
+    border: 1px solid white;
+}
+.img-4 {
+    max-width: 80%;
+    border: 1px solid white;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.img-5 {
+    width: 100%
+}
+
 .article-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -38,25 +67,27 @@ height: 100% !important;
 #point1 {
     padding: 20px;
     margin-left: 70px;
-    max-width: 40%;
+    max-width: 55%;
     margin-top: -5px;
 }
 
 #point2 {
-    max-width: 38%;
-    margin-left: 11%;
+    max-width: 35%;
+    margin-left: 27%;
     padding: 10px;
+    margin-top: 35px;
 }
 
 .point3 {
-    max-width: 38%!important;
+    max-width: 54%!important;
     margin-left: 5%;
     padding: 10px;
+    margin-top: 30px;
 }
 
 .point4 {
-    max-width: 38% !important;
-    margin-left: 12%;
+    max-width: 34% !important;
+    margin-left: -6%;
     padding: 10px;
     margin-top: -15px;
 }
@@ -337,7 +368,7 @@ height: 100% !important;
 
 .art-container {
     background-color: lightblue;
-    height: 1250px;
+    height: 2365px;
     width: 102%;
     margin-left: -16px !important;
 }
