@@ -1,5 +1,7 @@
 body {
 background-color: whitesmoke !important;
+width: 100% !important;
+height: 100% !important;
 }
 
 .container {
@@ -15,13 +17,63 @@ background-color: whitesmoke !important;
     padding: 30px;
 }
 
+.product-container {
+    height: 300px;
+    background-color: white;
+    margin-left: -15px;
+    width: 102%;
+}
+
+.review-container {
+    height: 500px;
+    background-color: white;
+    margin-left: -15px;
+    width: 102%;
+}
+
+.review-img {
+    margin-top: 10%;
+}
+
+#point1 {
+    padding: 20px;
+    margin-left: 70px;
+    max-width: 40%;
+    margin-top: -5px;
+}
+
+#point2 {
+    max-width: 38%;
+    margin-left: 11%;
+    padding: 10px;
+}
+
+.point3 {
+    max-width: 38%!important;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.point4 {
+    max-width: 38% !important;
+    margin-left: 12%;
+    padding: 10px;
+    margin-top: -15px;
+}
+
+.point5 {
+    margin-left: 5%;
+    max-width: 90% !important;
+}
+
  #header {
-    width: 102vw !important;
+    width: 101vw !important;
     height: 75px;
     line-height: 90px;
     color: #fff;
-    background-color:lightblue;
-    box-shadow: 0px 0px 5px 5px #d3d3d3;position: relative;
+    background-color: lightblue;
+    box-shadow: 0px 0px 5px #d3d3d3;
+    position: relative;
 }
 
 .company-name {
@@ -35,6 +87,47 @@ background-color: whitesmoke !important;
     text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
     font-weight: 800;
 
+}
+
+.names {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    color: darkblue;
+}
+
+.review {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+
+.viafb {
+    font-family: 'Quicksand', sans-serif;
+    color: blue;
+    font-size: 1vw;
+}
+
+.awards {
+    margin-top: 35px;
+    font-size: 4vw;
+    color: darkblue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.specialOffer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+    margin-top: 40px;
+    color: darkblue;
+    margin-left: 45px;
+
+}
+
+.material-icons {
+    margin-bottom: 20px !important;
 }
 
 .adv {
@@ -128,65 +221,77 @@ background-color: whitesmoke !important;
 }
 
 #phonics {
-    height: 200px;
+    height: 450px;
     background-color: lightblue;
     z-index: -1;
     position: relative;
 }
 
 #phonics2 {
-    height: 200px;
+    height: 450px;
     background-color: white;
     z-index: -1;
 }
 
 #question {
     z-index: 1;
-    font-size: 3vw;
+    font-size: 4vw;
     color: darkblue;
-    margin-top: 35px;
-    margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 #question2 {
     z-index: 1;
-    font-size: 3vw;
+    font-size: 4vw;
     color: darkblue;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 
 #def {
-    margin-left: 15%;
-    margin-top: -10px;
+    margin-top: 60px;
     font-family: 'Quicksand', sans-serif;
     color: darkblue;
+    font-size: 2vw;
 }
 #def2 {
-    margin-top: -10px;
+    margin-top: 60px;
     font-family: 'Quicksand', sans-serif;
     color: darkblue;
+    font-size: 2vw;
 }
 
 .small-img {
-    width: 50%;
+    width: 90%;
     position: absolute;
-    margin-left: 25%;
-    margin-top: 26px;
+    margin-top: 15%;
     border: 1px solid white;
     -moz-box-shadow: -1px -1px 2px 2px whitesmoke;
-  -webkit-box-shadow: -1px -1px 2px 2px whitesmoke;
-  box-shadow: -1px -1px 2px 2px whitesmoke;
+    -webkit-box-shadow: -1px -1px 2px 2px whitesmoke;
+    box-shadow: -1px -1px 2px 2px whitesmoke;
 }
 
 .small-img2 {
-    width: 35%;
+    width: 80%;
     position: absolute;
-    margin-left: 35%;
-    margin-top: 13px;
+    margin-left: 9%;
+    margin-top: 25px;
     border: 1px solid darkblue;
     -moz-box-shadow: -1px -1px 2px 2px darkblue;
     -webkit-box-shadow: -1px -1px 2px 2px darkblue;
     box-shadow: -1px -1px 2px 2px darkblue;
+}
+
+#title2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.8vw;
+    color: darkblue;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .pre-paragraph {
@@ -230,6 +335,13 @@ background-color: whitesmoke !important;
     text-align: center;
 }
 
+.art-container {
+    background-color: lightblue;
+    height: 1250px;
+    width: 102%;
+    margin-left: -16px !important;
+}
+
 .mid-btn  {
     width: 100%;
     margin-top: 24px;
@@ -260,14 +372,15 @@ background-color: whitesmoke !important;
 
 .action-btn {
     color: white;
-    background-color: lightblue;
-    padding: 24px;
-    margin-left: 425px;
+    background-color: red;
+    margin-left: 36%;
     border-radius: 15px;
     width: 25%;
-    margin-top: 30px;
     font-family: 'Short Stack', cursive;
     font-size: 30px;
+    margin-bottom: 65px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 }
 .action-btn:hover {
     background-color: red;
@@ -336,7 +449,7 @@ background-color: whitesmoke !important;
 #footer {
     background-color: #0F408E;
     color: #d3d3d3;
-    margin-top: 170px;
+    margin-top: 50px;
     bottom: 0;
     padding: 10px;
     width: 100vw;
@@ -348,6 +461,11 @@ background-color: whitesmoke !important;
     color: rgba(0,0,0,0.5);
     text-align: left;
     margin-top: 50px;
+}
+
+.butContainer {
+    height: 350px;
+    background-color: lightblue;
 }
 
 .mybtn {
