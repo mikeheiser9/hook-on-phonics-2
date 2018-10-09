@@ -235,7 +235,7 @@ height: 100% !important;
 
 .img-captions {
     font-size: 3vw;
-    color: white;
+    color: #BA2D0B !important;
     position: absolute;
     right: 15%;
     bottom: 75px;
@@ -243,12 +243,11 @@ height: 100% !important;
     z-index: 10;
     color: #fff;
     text-align: center;
-    border: 1px solid white;
+    border: 5px solid white;
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
-    text-shadow: -1px 0 darkslategray, 0 1px darkslategray, 1px 0 darkslategray, 0 -1px darkslategray;
-    font-weight: 600;
-
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: 800;
 }
 
 #phonics {
